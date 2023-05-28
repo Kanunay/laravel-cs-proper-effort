@@ -24,7 +24,7 @@
                     <label for="">Category Name</label>
                     <input type="text" name="name" class="form-control">
                 </div>
-
+                {{-- not use for now --}}
                 <div class="mb-3" hidden="hidden" >
                     <label for="">Slug</label>
                     <input type="text" name="slug" class="form-control" value="ignore">
@@ -37,25 +37,25 @@
                 
                 <div class="mb-3">
                     <label for="">Image</label>
-                    <input type="file" name="image" class="form-control">
+                    <input type="file" name="image" class="form-control" value="no image">
                 </div>
-
+                {{-- not use for now --}}
                 <H6 hidden="hidden">SEO Tags</H6>
                 <div class="mb-3" hidden="hidden">
                     <label for="">Meta Title</label>
                     <input type="text" name="meta_title" class="form-control" value="ignore">
                 </div>
-
+                {{-- not use for now --}}
                 <div class="mb-3" hidden="hidden">
                     <label for="">Meta Description</label>
                     <textarea type="text" name="meta_description" row="3" class="form-control" >Ignore</textarea>
                 </div>
-
+                {{-- not use for now --}}
                 <div class="mb-3" hidden="hidden">
                     <label for="">Meta Keywords</label>
                     <textarea type="text" name="meta_keyword" row="3" class="form-control" >Ignore</textarea >
                 </div>
-
+                {{-- not use for now --}}
                 <h6 hidden="hidden">Status Mode</h6>
                 <div class="row">
                     <div class="col-md-3 mb-3" hidden="hidden">
