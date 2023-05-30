@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// this Auth made with facedes Don't know it keeping having red lines
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
