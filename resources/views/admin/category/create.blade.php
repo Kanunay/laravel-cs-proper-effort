@@ -5,7 +5,7 @@
 
     <div class="card mt-4">
             <div class="card-header">
-                <h4 class="">Add Category</h4>
+                <h4 class="mt-2">Add Product</h4>
             </div>
         <div class="card-body">
 
@@ -21,7 +21,7 @@
                 @csrf
 
                 <div class="mb-3">
-                    <label for="">Category Name</label>
+                    <label for="">Product Name</label>
                     <input type="text" name="name" class="form-control">
                 </div>
                 {{-- not use for now --}}

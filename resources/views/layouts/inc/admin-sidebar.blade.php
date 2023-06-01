@@ -13,16 +13,7 @@
       $value =Auth::user()->role_as;
       @endphp
 
-      @if ($value == 0)
-         {{-- <h2 type="hidden" >No permissions</h2> --}}
-      @else
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url('admin/add-category') }}">
-              <span data-feather="shopping-cart" class="align-text-bottom"></span>
-              Add Category (admin)
-            </a>
-          </li>
-      @endif
+      
 
               @if ($value == 0)
               {{-- <h2 type="hidden" >No permissions</h2> --}}
@@ -30,7 +21,7 @@
             <li class="nav-item">
               <a class="nav-link" href="{{ url('admin/category') }}">
                 <span data-feather="file" class="align-text-bottom"></span>
-                View Category (admin)
+                Products (admin)
               </a>
             </li>
           @endif
